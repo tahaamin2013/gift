@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { Loader } from "lucide-react";
-import { 
-  ClerkLoaded, 
-  ClerkLoading, 
-  SignInButton, 
-  SignUpButton, 
-  SignedIn, 
-  SignedOut
-} from "@clerk/nextjs";
+// import { 
+//   ClerkLoaded, 
+//   ClerkLoading, 
+//   SignInButton, 
+//   SignUpButton, 
+//   SignedIn, 
+//   SignedOut
+// } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className="text-xl lg:text-3xl font-bold text-black max-w-[480px] text-center">
           Learn, practice, and master new languages with Vocabify.
         </h1>
-        <div className="flex flex-col items-center gap-y-3 max-w-[330px] w-full">
+        {/* <div className="flex flex-col items-center gap-y-3 max-w-[330px] w-full">
            <ClerkLoading>
             <Loader className="h-5 w-5 text-muted-foreground animate-spin" />
           </ClerkLoading>
@@ -54,7 +54,7 @@ export default function Home() {
               </Button>
             </SignedIn>
           </ClerkLoaded> 
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { Loader } from "lucide-react";
-import { 
-  ClerkLoaded, 
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/nextjs";
+// import { 
+//   ClerkLoaded, 
+//   SignedIn,
+//   SignedOut,
+//   SignInButton,
+//   UserButton,
+// } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
-import { ClerkLoading } from "@clerk/nextjs";
+// import { ClerkLoading } from "@clerk/nextjs";
 import Link from "next/link";
 
 export const Header = () => {
@@ -21,7 +21,7 @@ export const Header = () => {
           Vocabify
           </h1>
         </Link>
-        <ClerkLoading>
+        {/* <ClerkLoading>
           <Loader className="h-5 w-5 text-muted-foreground animate-spin" />
         </ClerkLoading>
         <ClerkLoaded>
@@ -42,7 +42,7 @@ afterSignOutUrl="/"
               </Button>
             </SignInButton>
           </SignedOut>
-        </ClerkLoaded>
+        </ClerkLoaded> */}
       </div>
     </header>
   );
